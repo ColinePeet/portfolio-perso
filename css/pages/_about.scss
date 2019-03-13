@@ -1,0 +1,58 @@
+.about-page{
+    display: flex;
+    flex-direction: column;
+    .about-head{
+        margin: 80px 0 150px 0;
+        position: relative;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+        width: 30%;
+    }
+    .about-title{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 6em;
+        font-weight: 700;
+        -webkit-text-stroke: 1px $corail;
+        color: $corail;
+        color: transparent;
+        position: absolute;
+        bottom: -60px;
+     }
+    }
+    .bloc{
+        padding: 80px 160px;
+        background: rgb(245, 245, 245);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .bloc-section{
+            display: flex;
+            flex-direction: row;
+            margin: 15px 0;
+            h4{
+                width: 40%;
+                margin: 0;
+                font-size: 1.8em;
+                font-size: 1.6em;
+                font-weight: 400;
+                letter-spacing: 2px;
+                font-family: 'work sans', Helvetica, sans-serif;
+            }
+            .txt{
+                width: 60%;
+                font-family: 'poppins', sans-serif;
+                line-height: 1.4em;
+                div {
+                    margin: 0 0 15px 0;
+                    .bold{
+                        font-weight: 400;
+                        color: rgb(134, 134, 134);
+                        line-height: 1.7em;
+                    }
+                }
+            }
+        }
+    }
+}

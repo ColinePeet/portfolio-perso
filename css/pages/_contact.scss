@@ -1,0 +1,53 @@
+.contact-page{
+    padding: 50px 160px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .contact-txt{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 6em;
+        font-weight: 700;
+        -webkit-text-stroke: 1px $corail;
+        color: transparent;
+        text-align: left;
+     }
+    form{
+        width: 50%;
+        .bloc{
+            display: flex;
+            flex-direction: column;
+            .champ{
+                display: flex;
+                flex-direction: column;
+                label{
+                    font-weight: 500;
+                    color: rgb(58, 58, 58);
+                    padding: 25px 0 8px 0;
+                }
+                input{
+                    border: 1px solid $corail;
+                    border-radius: 3px;
+                    height: 35px;
+                    padding-left: 8px;
+                }
+                textarea{
+                    border: 1px solid $corail;
+                    border-radius: 3px;
+                    height: 150px;
+                    padding-left: 8px;
+                    padding-top: 8px;
+                }
+            }
+        }
+        .enter{
+            width: 90px;
+            height: 90px;
+            border-radius: 100%;
+            border: none;
+            background: $corail;
+            color: white;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+    }
+}

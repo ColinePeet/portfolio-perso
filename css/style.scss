@@ -1,0 +1,15 @@
+@import "base/normalize";
+@import "base/typo";
+
+@import "helpers/variables";
+@import "helpers/mixins";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/general";
+
+@import "pages/homepage";
+@import "pages/projects";
+@import "pages/insideprojects";
+@import "pages/contact";
+@import "pages/about";
